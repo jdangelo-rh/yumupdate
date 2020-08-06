@@ -1,3 +1,5 @@
 ---
- - roles:
-    - common
+
+ - hosts: all
+   roles:
+     - common
