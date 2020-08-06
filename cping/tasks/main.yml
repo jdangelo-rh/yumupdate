@@ -1,0 +1,5 @@
+---
+# tasks file for common
+
+- name: Ping the machine
+  ping:
