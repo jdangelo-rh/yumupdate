@@ -3,7 +3,7 @@
 
 - name: upgrade all packages
   yum:
-    name: httpd
+    name: '*'
     state: latest
 
 - name: Reboot a slow machine that might have lots of updates to apply
