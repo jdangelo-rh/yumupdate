@@ -1,0 +1,10 @@
+---
+# tasks file for common
+
+- name: upgrade all packages
+  yum:
+    name: '*'
+    security: yes  
+    state: latest
+
+
