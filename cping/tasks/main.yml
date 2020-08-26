@@ -3,3 +3,9 @@
 
 - name: Ping the machine
   ping:
+
+- meta: refresh_inventory
+
+- pause:
+    minutes: 1
+    
