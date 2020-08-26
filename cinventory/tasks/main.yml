@@ -1,4 +1,5 @@
 - name: Add tower inventory
   tower_inventory:
     name: "Redhat"
+    organization: "Default"
     state: present
