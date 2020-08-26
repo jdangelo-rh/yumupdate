@@ -1,4 +1,7 @@
-- name: Add tower inventory
-  tower_inventory:
-    name: "Redhat"
-    state: present
+---
+
+ - hosts: all
+   become_user: root
+   become: true
+   roles:
+     - cinventory
