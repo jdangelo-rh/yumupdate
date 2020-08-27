@@ -2,4 +2,4 @@
 # tasks file for common
 
 - name: Run command to backup Tower
-  command: /home/devops/ansible-tower-setup-3.7.2-1/setup.sh -e 'backup_dest=/tmp/' -b
+  command: /root/ansible-tower-setup-bundle-3.6.1-1.el8/setup.sh -e 'backup_dest=/backup' -b
